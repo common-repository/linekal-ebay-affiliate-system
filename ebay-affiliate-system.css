@@ -1,0 +1,93 @@
+.ebayaff_single_feed_item p {
+    margin: 0px;
+}
+.ebayaff_single_feed_item tr {
+    border: 0px;
+}
+.ebayaff_single_feed_item {
+    width: 23%;
+    display: inline-block;
+    min-height: 460px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    border: 2px solid #dfdfdf;
+}
+.ebayaff_item_description_one table {
+    border: 0px;
+    text-align: center; 
+}
+.ebayaff_item_description_one td:nth-of-type(1) {
+    border: 0px;
+    text-align: center;
+}
+.ebayaff_item_description_one td:nth-of-type(2) {
+    display: none !important;
+}
+.ebayaff_item_description_one p {
+    margin: 0px;
+}
+.ebayaff_item_title {
+    font-weight: bold;
+    padding: 10px;
+    border-top: 1px solid #dfdfdf;
+}
+.ebayaff_item_description_two td a {
+    background: #fb9351;
+    color: #fff;
+    padding: 5px 12px;
+    line-height: 40px;
+    font-size: 11px;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+}
+.ebayaff_item_description_two td a:hover {
+    background: #5b4141;
+}
+.ebayaff_item_description_two td strong {
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.6em;
+    color: #666;
+}
+.ebayaff_item_description_two td:nth-of-type(2) {
+    border: 0;
+    color: #777777;
+}
+.ebayaff_item_description_two {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.ebayaff_item_description_two table {
+    border: 0px;
+    border-top: 1px solid #dfdfdf;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    background: #f3f3f3;
+    margin-bottom: 0px !important;
+}
+.ebayaff_item_description_two td:nth-of-type(2) {
+    border: 0;
+}
+.ebayaff_item_description_two td:nth-of-type(1) {
+    display: none !important;
+}
+.ebayaff_load_more {
+    text-align: center;
+}
+button#ebayaff_load_more_button {
+    width: 40%;
+    font-size: 23px;
+}
+@media handheld, only screen and (max-width: 767px) {
+.ebayaff_single_feed_item {
+    width: 100% !important;
+}
+}
